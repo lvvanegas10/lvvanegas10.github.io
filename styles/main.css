@@ -20,7 +20,7 @@ body{
     letter-spacing:0.2em;
     font-weight:bold;
     position:relative;
-    top: 80px;
+    top: 50px;
     color:#fff;
     text-align: center;
     justify-content: center;
@@ -111,7 +111,7 @@ body{
         width: 100%;
     }
     .image-circle{
-        margin-top: 100px;
+        margin-top: 80px;
         border-radius: 50%;
         width: 200px;
         height:200px;
@@ -123,6 +123,11 @@ body{
     }
     .nav-sublinks{
         width: 100%;
+    }
+    .nav-header
+    {
+        position:relative;
+        top: 20px;
     }
 }
 
