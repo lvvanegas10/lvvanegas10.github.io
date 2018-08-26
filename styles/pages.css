@@ -19,6 +19,7 @@ body{
     font-weight: bold;
 }
 a{
+    margin: auto 20px;
     color: #80bece;
     float: rights;
     font-size: 14px;
@@ -63,7 +64,7 @@ a:hover{
 }
 .title-section{
     position: relative;
-    top:100px;
+    top:90px;
 }
 @media (max-width: 767.98px) { 
     .title-section{
