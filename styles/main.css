@@ -111,7 +111,7 @@ body{
         width: 100%;
     }
     .image-circle{
-        margin-top: 80px;
+        margin-top: 60px;
         border-radius: 50%;
         width: 200px;
         height:200px;
@@ -127,7 +127,7 @@ body{
     .nav-header
     {
         position:relative;
-        top: 20px;
+        top: 30px;
     }
 }
 
@@ -138,7 +138,16 @@ body{
         height: 150px;
     }
 }
-
+@media (min-height: 700px) { 
+    .nav-header
+    {
+        position:relative;
+        top: 90px;
+    }
+    .image-circle{
+        margin-top: 110px;
+    }
+}
 @media (min-height: 1024px) { 
     .long-dev{
         margin-top:10%;

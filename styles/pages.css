@@ -82,9 +82,6 @@ hr.star-primary {
     background-color: #80bece;
 }
 
-/* -----------------------------------------------------
-    About
-    ----------------------------------------------------- */
 .nav-header
 {
     width:100%;
@@ -95,6 +92,21 @@ hr.star-primary {
     font-weight:bold;
     text-align: center;
     justify-content: center;
+}
+.link-text{
+    font-weight:bold;
+    text-transform: none;
+    margin: auto;
+    color: #80bece;
+    font-size: 16px;
+    margin: 0 4px;
+}
+/* -----------------------------------------------------
+    About
+    ----------------------------------------------------- */
+.about{
+    position: relative; 
+    top:120px;
 }
 
 /* -----------------------------------------------------
