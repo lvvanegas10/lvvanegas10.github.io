@@ -1,0 +1,112 @@
+/*  ---------------------------------------------------------------------
+    General
+    --------------------------------------------------------------------- */
+body{
+    margin:0px;
+    padding: 0px;
+    font-family:  "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+/* -----------------------------------------------------
+    Navbar
+    ----------------------------------------------------- */
+.navbar{
+    background-color: #1f4954;
+    color: aliceblue;
+}
+.navbar-brand{
+    color:aliceblue;
+    font-weight: bold;
+}
+a{
+    color: #80bece;
+    float: rights;
+    font-size: 14px;
+    text-transform:uppercase;
+}
+a:hover{
+    color: #3e6c78;
+}
+.custom-toggler.navbar-toggler {
+    border-color: aliceblue;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(240,248,255,0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#navbarNav{
+    justify-content: flex-end;
+}
+
+.current>a{
+    color: aliceblue;
+    font-weight: bold;
+}
+.current>a:hover{
+    color:aliceblue;
+}
+
+/* -----------------------------------------------------
+    Others and title
+    ----------------------------------------------------- */
+.adorno1{
+    width: 100%;
+    height: 10px;
+    background-color: #3e6c78;
+}
+.adorno2{
+    width: 100%;
+    height: 5px;
+    background-color: #3e6c78;
+    position: fixed;
+    bottom: 0;    
+}
+.title-section{
+    position: relative;
+    top:100px;
+}
+@media (max-width: 767.98px) { 
+    .title-section{
+        position: relative;
+        top:50px;
+    }
+}
+hr.star-primary {
+    padding: 0;
+    border-top: solid 5px;
+    border-color: #1f4954;
+    text-align: center;
+    max-width: 270px;
+    margin: 15px auto 30px;
+    background-color: #80bece;
+}
+
+/* -----------------------------------------------------
+    About
+    ----------------------------------------------------- */
+.nav-header
+{
+    width:100%;
+    margin:0 auto;
+    font-size:2em;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    font-weight:bold;
+    text-align: center;
+    justify-content: center;
+}
+
+/* -----------------------------------------------------
+    Skills
+    ----------------------------------------------------- */
+
+/* -----------------------------------------------------
+    Resume
+    ----------------------------------------------------- */
+/* -----------------------------------------------------
+    Hobbies
+    ----------------------------------------------------- */
+
+/* -----------------------------------------------------
+    Contact
+    ----------------------------------------------------- */
