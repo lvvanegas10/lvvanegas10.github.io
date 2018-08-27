@@ -212,6 +212,16 @@ hr.star-primary {
 .resume>a:hover{
     color: #1f4954;
 }
+@media (min-height: 700px) { 
+    .resume{
+        position: relative; 
+        top:200px;
+        z-index: 1;   
+     }
+     .to-back{
+         top:200px;
+     }
+}
 /* -----------------------------------------------------
     Hobbies
     ----------------------------------------------------- */
@@ -231,7 +241,12 @@ hr.star-primary {
 .carousel-caption{
     background-color: rgba(128,128,128, 0.4)
 }
-
+@media (min-height: 700px) { 
+    .hobbies{
+        position: relative; 
+        top:200px;
+     }
+}
 /* -----------------------------------------------------
     Contact
     ----------------------------------------------------- */

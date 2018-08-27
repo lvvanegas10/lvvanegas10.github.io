@@ -149,6 +149,17 @@ body{
         margin-top: 110px;
     }
 }
+
+@media (min-height: 700px) { 
+    .nav-header
+    {
+        position:relative;
+        top: 170px;
+    }
+    .image-circle{
+        margin-top: 190px;
+    }
+}
 @media (min-height: 1024px) { 
     .long-dev{
         margin-top:10%;
@@ -160,5 +171,13 @@ body{
     }
     .nav-sublinks{
         width: 70%;
+    }
+    .nav-header
+    {
+        position:relative;
+        top: 70px;
+    }
+    .image-circle{
+        margin-top: 90px;
     }
 }
