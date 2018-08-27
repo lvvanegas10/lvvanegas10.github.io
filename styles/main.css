@@ -134,8 +134,9 @@ body{
 /* Height */
 @media (max-height: 600px) { 
     .image-circle{
-        width: 150px;
-        height: 150px;
+        margin-top: 80px;
+        width: 250px;
+        height: 250px;
     }
 }
 @media (min-height: 700px) { 

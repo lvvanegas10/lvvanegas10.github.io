@@ -178,9 +178,54 @@ hr.star-primary {
 /* -----------------------------------------------------
     Resume
     ----------------------------------------------------- */
+.resume{
+    position: relative; 
+    top:90px;
+    z-index: 1;   
+ }
+ .resume-text{
+    position: relative; 
+    top:10px; 
+    font-weight: bold;  
+ }
+ .pdf{
+     margin-bottom: 25px;
+ }
+ .to-back{
+     z-index: -1;
+ }
+ .resume>a{
+    font-family:  "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100px;
+    background-color: #3e6c78;
+    justify-content: center;
+    text-align: center;
+    color: #80bece;
+    border-radius: 5%;
+}
+.resume>a:hover{
+    color: #1f4954;
+}
 /* -----------------------------------------------------
     Hobbies
     ----------------------------------------------------- */
+.hobbies{
+    position: relative; 
+    top:100px;
+}
+.carousel{
+    width: 500px;
+}
+
+.car-section{
+    position: relative;
+    top: 100px;
+    margin: 5px;
+}
+.carousel-caption{
+    background-color: rgba(128,128,128, 0.4)
+}
 
 /* -----------------------------------------------------
     Contact
