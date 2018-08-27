@@ -12,13 +12,13 @@ body{
     ----------------------------------------------------- */
 .top-page{
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     width: 100%;
 }
-    .navbar{
+.navbar{
     background-color: #1f4954;
     color: aliceblue;
-    z-index: 1;
+    z-index: 10;
 }
 .navbar-brand{
     color:aliceblue;
@@ -60,7 +60,7 @@ a:hover{
     width: 100%;
     height: 10px;
     background-color: #3e6c78;
-    z-index: 1;
+    z-index: 10;
 }
 .adorno2{
     width: 100%;
@@ -68,7 +68,7 @@ a:hover{
     background-color: #3e6c78;
     position: fixed;
     bottom: 0;  
-    z-index: 1;  
+    z-index: 10;  
 }
 .title-section{
     position: relative;

@@ -35,27 +35,62 @@ var gitgraph = new GitGraph({
 
 gitgraph.commit("First commit")         // 3 commits upon HEAD
 var develop = gitgraph.branch("Professional");    // New branch from HEAD
-var myfeature = develop.branch("myfeature"); // New branch from develop
 
 // Well, if you need to go deeper…
+master.commit({
+  sha1: "2012",
+  message: "Began to play basketball"
+});
 
-var hotfix = gitgraph.branch({
-  parentBranch: develop,
-  name: "hotfix",
-  column: 2             // which column index it should be displayed in
+master.commit({
+  sha1: "Februar 2012",
+  message: "Computing studies at school"
 });
 
 develop.commit({
     dotColor: "white",
     dotSize: 10,
     dotStrokeWidth: 10,
-    sha1: "666",
-    message: "Pimp dat commit",
-    author: "Jacky <prince@dutunning.com>",
-    tag: "a-super-tag",
-    onClick: function(commit) {
-      console.log("Oh, you clicked my commit?!", commit);
-    }
+    sha1: " December",
+    message: "Graduate from school"
   });
 
-  master.merge(develop); // Merge master into develop
+var uni = gitgraph.branch("University");
+uni.commit({
+  sha1: "2013 December",
+  message: "Won Quiero Estudiar Scholarship"
+});
+
+uni.commit({
+  dotColor: "white",
+  dotSize: 10,
+  dotStrokeWidth: 10,
+  sha1: "Januar 2014",
+  message: "Began to study Industrial engineering",
+});
+
+master.merge(uni)
+
+var uni2 = gitgraph.branch("System");
+uni2.commit({
+  dotColor: "white",
+  dotSize: 10,
+  dotStrokeWidth: 10,
+  sha1: "Januar 2016",
+  message: "Began to study System and Computing engineering"
+});
+
+uni2.commit({
+  sha1: "February 2017",
+  message: "Teaching assistant OOP"
+});
+
+
+uni2.commit({
+  sha1: "February 2018",
+  message: "Join The Software Desing Lab"
+});
+
+
+
+
