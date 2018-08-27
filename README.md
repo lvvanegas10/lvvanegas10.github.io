@@ -7,7 +7,7 @@ Hi! This is the source code of my personal web page. The objective of this proje
 * JavaScript
 * CSS
 
-* Use library GitGraph to develop the *Resume* section
+* Use a simple JavaScript library (GitGraph) to develop the *Resume* section
 
 
 ## How to run?
