@@ -7,7 +7,7 @@ Hi! This is the source code of my personal web page. The objective of this proje
 * JavaScript
 * CSS
 
-* Use GitGraph to develop the *Resume* section
+* Use library GitGraph to develop the *Resume* section
 
 
 ## How to run?
@@ -22,3 +22,6 @@ Developed by [Laura Valeria Vanegas](https://github.com/lvvanegas10)
 ![screen](https://raw.githubusercontent.com/lvvanegas10/lvvanegas10.github.io/master/screen.JPG "Preview")
 
 ## License
+
+The MIT License
+Copyright (c) 2018 - Laura Valeria Vanegas
