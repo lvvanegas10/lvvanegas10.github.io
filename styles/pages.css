@@ -10,9 +10,15 @@ body{
 /* -----------------------------------------------------
     Navbar
     ----------------------------------------------------- */
-.navbar{
+.top-page{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+    .navbar{
     background-color: #1f4954;
     color: aliceblue;
+    z-index: 1;
 }
 .navbar-brand{
     color:aliceblue;
@@ -54,22 +60,31 @@ a:hover{
     width: 100%;
     height: 10px;
     background-color: #3e6c78;
+    z-index: 1;
 }
 .adorno2{
     width: 100%;
     height: 5px;
     background-color: #3e6c78;
     position: fixed;
-    bottom: 0;    
+    bottom: 0;  
+    z-index: 1;  
 }
 .title-section{
     position: relative;
-    top:90px;
+    top:100px;
 }
 @media (max-width: 767.98px) { 
     .title-section{
         position: relative;
-        top:50px;
+        top:80px;
+    }
+}
+
+@media (max-height: 800px) { 
+    .title-section{
+        position: relative;
+        top:80px;
     }
 }
 hr.star-primary {
@@ -109,9 +124,56 @@ hr.star-primary {
     top:120px;
 }
 
+@media (max-width: 767.98px) { 
+    .about{
+        position: relative; 
+        top:70px;
+    }
+}
 /* -----------------------------------------------------
     Skills
     ----------------------------------------------------- */
+.progress .progress-bar {
+    background-color: #80bece;
+    position: relative;
+    border-radius: 4px;
+}
+
+.skills{
+    position: relative; 
+    top:120px;
+}
+.skill{
+    margin: 10px;
+}
+.skill>h3{
+    font-size: 15px;
+    color:#3e6c78;
+}
+.group-skill{
+    padding: 20px;
+    border: solid 1px;
+    border-color: #1f4954;
+    margin: 5px;
+}
+
+@media (max-width: 767.98px) { 
+    .group-skill{
+        position: relative; 
+        top:-35px;
+    }
+}
+@media (max-height: 800px) { 
+    .group-skill{
+        position: relative; 
+        top:-60px;
+    }
+}
+@media (mix-height: 100px) { 
+    .group-skill{
+        width: 100%;
+    }
+}
 
 /* -----------------------------------------------------
     Resume
