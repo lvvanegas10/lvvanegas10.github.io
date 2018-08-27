@@ -27,7 +27,7 @@ var myTemplate = new GitGraph.Template( myTemplateConfig );
 
 var gitgraph = new GitGraph({
     template: "metro",
-    orientation: "vertical-reverse",
+    orientation: "horizontal",
     mode: "compact"
   });
 
