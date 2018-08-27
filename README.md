@@ -17,7 +17,7 @@ The objective of this project is to develop my personal webpage. The main idea i
 * Run reload -b 
 
 ## Autors
-Developed by [Laura Valeria Vanegas](https://github.com/Sxubas)]
+Developed by [Laura Valeria Vanegas](https://github.com/lvvanegas10)
 
 ## Web Page
 ## License
