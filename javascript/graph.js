@@ -31,7 +31,7 @@ var gitgraph = new GitGraph({
     mode: "compact"
   });
 
-  var master = gitgraph.branch("master");
+var master = gitgraph.branch("master");
 
 gitgraph.commit("First commit")         // 3 commits upon HEAD
 var develop = gitgraph.branch("Professional");    // New branch from HEAD
@@ -48,12 +48,9 @@ master.commit({
 });
 
 develop.commit({
-    dotColor: "white",
-    dotSize: 10,
-    dotStrokeWidth: 10,
-    sha1: " December",
-    message: "Graduate from school"
-  });
+  sha1: " December",
+  message: "Graduate from school"
+});
 
 var uni = gitgraph.branch("University");
 uni.commit({
