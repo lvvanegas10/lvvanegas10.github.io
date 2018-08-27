@@ -72,19 +72,19 @@ a:hover{
 }
 .title-section{
     position: relative;
-    top:100px;
+    top:150px;
 }
 @media (max-width: 767.98px) { 
     .title-section{
         position: relative;
-        top:80px;
+        top:100px;
     }
 }
 
 @media (max-height: 800px) { 
     .title-section{
         position: relative;
-        top:80px;
+        top:100px;
     }
 }
 hr.star-primary {
@@ -121,13 +121,13 @@ hr.star-primary {
     ----------------------------------------------------- */
 .about{
     position: relative; 
-    top:120px;
+    top:200px;
 }
 
 @media (max-width: 767.98px) { 
     .about{
         position: relative; 
-        top:70px;
+        top:120px;
     }
 }
 /* -----------------------------------------------------
@@ -141,7 +141,7 @@ hr.star-primary {
 
 .skills{
     position: relative; 
-    top:120px;
+    top:200px;
 }
 .skill{
     margin: 10px;
@@ -160,7 +160,7 @@ hr.star-primary {
 @media (max-width: 767.98px) { 
     .group-skill{
         position: relative; 
-        top:-35px;
+        top:-70px;
     }
 }
 @media (max-height: 800px) { 
@@ -169,7 +169,7 @@ hr.star-primary {
         top:-60px;
     }
 }
-@media (mix-height: 100px) { 
+@media (min-height: 1000px) { 
     .group-skill{
         width: 100%;
     }
@@ -185,3 +185,16 @@ hr.star-primary {
 /* -----------------------------------------------------
     Contact
     ----------------------------------------------------- */
+.contact{
+    position: relative; 
+    top:200px;    
+}
+.margen{
+    margin: 15px;
+}
+@media (max-height: 800px) { 
+    .contact{
+        position: relative; 
+        top:100px;
+    }
+}
