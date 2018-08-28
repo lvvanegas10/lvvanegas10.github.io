@@ -1,3 +1,5 @@
+/* Es recomendable usar la propiedad transform para animaciones a usa rpvalores de pixeles negativos */
+
 .gitgraph-tooltip {
   position: absolute;
   margin-top: -15px;
