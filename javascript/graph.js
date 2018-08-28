@@ -1,3 +1,5 @@
+//Usar "use strict"
+"use strict";
 var myTemplateConfig = {
     colors: [ "#66f", "#660000", "#00BB00" ], // branches colors, 1 per column
     branch: {
