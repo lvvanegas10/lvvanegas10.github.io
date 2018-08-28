@@ -1,37 +1,36 @@
-var w = window;
 var TxtRotate = function(el, toRotate, period) {
-  w.toRotate = toRotate;
-  w.el = el;
-  w.loopNum = 0;
-  w.period = parseInt(period, 10) || 2000;
-  w.txt = '';
-  w.tick();
-  w.isDeleting = false;
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
 };
 
 TxtRotate.prototype.tick = function() {
-  var i = w.loopNum % w.toRotate.length;
-  var fullTxt = w.toRotate[i];
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
 
-  if (w.isDeleting) {
-    w.txt = fullTxt.substring(0, w.txt.length - 1);
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
   } else {
-    w.txt = fullTxt.substring(0, w.txt.length + 1);
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
   }
 
-  this.el.innerHTML = '<span class="wrap">'+w.txt+'</span>';
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
-  var that = w;
+  var that = this;
   var delta = 300 - Math.random() * 100;
 
-  if (w.isDeleting) { delta /= 2; }
+  if (this.isDeleting) { delta /= 2; }
 
-  if (!w.isDeleting && w.txt === fullTxt) {
-    delta = w.period;
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
     this.isDeleting = true;
-  } else if (w.isDeleting && w.txt === '') {
-    w.isDeleting = false;
-    w.loopNum++;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
     delta = 500;
   }
 
